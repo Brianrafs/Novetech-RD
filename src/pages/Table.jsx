@@ -9,12 +9,12 @@ export default function Table() {
     filteredUnidades,
     filterUnidadesByState,
     filterUnidadesByNameUnidade,
+    unidades
   } = useUnidades();
   const [inputText, setInputText] = useState("");
   const pattern = /^[a-zA-Z\s]*$/;
 
   useEffect(() => {
-    console.log(state);
     filterUnidadesByState(state);
   }, []);
 
@@ -23,7 +23,8 @@ export default function Table() {
     let upperCase = text.target.value.toUpperCase();
     setInputText(upperCase);
     // if we don't have an input, then return the original array
-    filterUnidadesByNameUnidade(upperCase);
+    filterUnidadesByNameUnidade(upperCase, state);
+
   };
 
   const isValidChar = (char) => {
@@ -33,9 +34,12 @@ export default function Table() {
     return false;
   };
 
-  useEffect(() => {
-    console.log(filteredUnidades);
-  }, [filteredUnidades]);
+  useEffect(()=> {
+    console.log(filteredUnidades)
+
+  }, [filteredUnidades])
+
+
   return (
     <div style={{ margin: "25px" }}>
       <h1>Unidades - {state}</h1>
@@ -62,16 +66,17 @@ export default function Table() {
           </tr>
         </thead>
         <tbody>
-          {filteredUnidades.map((unidade) => (
-            <tr key={unidade.ANYDESK}>
-              <th scope="row">{unidade.ANYDESK}</th>
-              <th scope="row">{unidade.UNIDADES}</th>
-              <th scope="row">{unidade.MUNICIPIOS}</th>
-              <th scope="row"><a target="_blank" href={unidade.LOCALIZACAO}>Maps</a></th>
-              <th scope="row"><a target="_blank" href={unidade.CONTATO}>LINK</a></th>
-
-            </tr>
-          ))}
+          {
+            filteredUnidades.map((unidade, index) => (
+              <tr key={index}>
+                <th scope="row">{unidade.ANYDESK}</th>
+                <th scope="row">{unidade.UNIDADES}</th>
+                <th scope="row">{unidade.MUNICIPIOS}</th>
+                <th scope="row"><a target="_blank" href={unidade.LOCALIZACAO}>Maps</a></th>
+                <th scope="row"><a target="_blank" href={unidade.CONTATO}>LINK</a></th>
+              </tr>
+            ))
+          }
         </tbody>
       </table>
     </div>

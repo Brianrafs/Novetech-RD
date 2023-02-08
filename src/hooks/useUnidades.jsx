@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 
 export default function useUnidades() {
   const [unidades, setUnidades] = useState([]);
@@ -29,15 +29,16 @@ export default function useUnidades() {
 
   }
 
-  const filterUnidadesByNameUnidade = (input) => {
-   
-      if(input != "") {
+  const filterUnidadesByNameUnidade = useCallback((input, state) => {
+    const filterData =
+        unidades !== undefined && input.length > 0
+          ? unidades.filter(value =>
+              value.UNIDADES.toUpperCase().includes(input.toUpperCase()),
+            )
+          : [];
 
-        setFilteredUnidades(unidades.filter((unidade) => unidade.UNIDADES.toUpperCase().includes(input)))
-      }
-    
-
-  }
+          setFilteredUnidades(input.length > 0 ? filterData : unidades.filter((unidade) => unidade.UF == state));
+  }, [setFilteredUnidades]);
 
   return { listUnidades, filterUnidadesByState, filterUnidadesByNameUnidade, unidades, filteredUnidades };
 }
