@@ -1,6 +1,6 @@
 import '../css/buttonMain.css';
-import {FaExternalLinkAlt} from "react-icons/fa";
 import { Link } from 'react-router-dom';
+
 
 
 export default function ButtonMain({name, sourceImage, idIcon, route, altText}) {
@@ -9,9 +9,6 @@ export default function ButtonMain({name, sourceImage, idIcon, route, altText}) 
             <button className="buttonMain" type='button'>
                 <img className='logoButton' src={sourceImage} id={idIcon} alt={altText}/>
                 <span className="label text-dark">{name}</span>
-                <span className="icon">
-                    <FaExternalLinkAlt />
-                </span>
             </button>
         </Link>
     );
