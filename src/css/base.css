@@ -1,0 +1,22 @@
+:root {
+    --bg-color-one: #1a1c40;
+    --bg-color-gradient: linear-gradient(0deg, rgba(15,19,89,1) 0%, rgba(68,73,166,1) 44%, rgba(73,79,191,1) 75%);
+    --bg-button-color: #fff;
+    --bg-button-gradient-hover: linear-gradient(90deg, rgb(255, 255, 255) 44%, rgba(70, 77, 216, 0.5) 75%, rgba(28, 35, 160, 0.5) 90%);
+    --txt-color: #fff;
+    --card-color: #0f1359;
+}
+
+
+body {
+    background: var(--bg-color-gradient) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+}

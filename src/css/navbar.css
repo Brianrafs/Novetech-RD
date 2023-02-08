@@ -1,0 +1,11 @@
+@import url(base.css);
+
+nav.navbar {
+    background-color: var(--bg-color-one);
+    color: var(--txt-color);
+    height: 15vh;
+}
+
+nav a img.logoBranca {
+    width: 9em;
+}

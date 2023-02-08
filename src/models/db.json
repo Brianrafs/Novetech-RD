@@ -1,0 +1,194 @@
+{
+    "stateFlags": [
+        {
+            "id": 1,
+            "name": "Acre",
+            "abbreviation": "AC",
+            "image": "./src/assets/images/stateFlags/Bandeira_do_Acre.svg",
+            "alternative": "Bandeira do estado do Acre"
+        },
+        {
+            "id": 2,
+            "name": "Alagoas",
+            "abbreviation": "AL",
+            "image": "./src/assets/images/stateFlags/Bandeira_de_Alagoas.svg",
+            "alternative": "Bandeira do estado de Alagoas"
+        },
+        {
+            "id": 3,
+            "name": "Amapá",
+            "abbreviation": "AP",
+            "image": "./src/assets/images/stateFlags/Bandeira_do_Amapa.svg",
+            "alternative": "Bandeira do estado do Amapá"
+        },
+        {
+            "id": 4,
+            "name": "Amazonas",
+            "abbreviation": "AM",
+            "image": "./src/assets/images/stateFlags/Bandeira_do_Amazonas.svg",
+            "alternative": "Bandeira do estado do Amazonas"
+        },
+        {
+            "id": 5,
+            "name": "Bahia",
+            "abbreviation": "BA",
+            "image": "./src/assets/images/stateFlags/Bandeira_da_Bahia.svg",
+            "alternative": "Bandeira do estado da Bahia"
+        },
+        {
+            "id": 6,
+            "name": "Ceará",
+            "abbreviation": "CE",
+            "image": "./src/assets/images/stateFlags/Bandeira_do_Ceara.svg",
+            "alternative": "Bandeira do estado do Ceará"
+
+        },
+        {
+            "id": 7,
+            "name": "Distrito Federal",
+            "abbreviation": "DF",
+            "image": "./src/assets/images/stateFlags/Bandeira_do_Distrito_Federal_(Brasil).svg",
+            "alternative": "Bandeira do estado do Distrito Federal"
+        },
+        {
+            "id": 8,
+            "name": "Espírito Santo",
+            "abbreviation": "ES",
+            "image": "./src/assets/images/stateFlags/Bandeira_do_Espirito_Santo.svg",
+            "alternative": "Bandeira do estado do Espírito Santo"
+        },
+        {
+            "id": 9,
+            "name": "Goiás",
+            "abbreviation": "GO",
+            "image": "./src/assets/images/stateFlags/Bandeira_de_Goias.svg",
+            "alternative": "Bandeira do estado de Goiás"
+        },
+        {
+            "id": 10,
+            "name": "Maranhão",
+            "abbreviation": "MA",
+            "image": "./src/assets/images/stateFlags/Bandeira_do_Maranhao.svg",
+            "alternative": "Bandeira do estado do Maranhão"
+        },
+        {
+            "id": 11,
+            "name": "Mato Grosso",
+            "abbreviation": "MT",
+            "image": "./src/assets/images/stateFlags/Bandeira_de_Mato_Grosso.svg",
+            "alternative": "Bandeira do estado do Mato Grosso"
+        },
+        {
+            "id": 12,
+            "name": "Mato Grosso do Sul",
+            "abbreviation": "MS",
+            "image": "./src/assets/images/stateFlags/Bandeira_de_Mato_Grosso_do_Sul.svg",
+            "alternative": "Bandeira do estado do Mato Grosso do Sul"
+        },
+        {
+            "id": 13,
+            "name": "Minas Gerais",
+            "abbreviation": "MG",
+            "image": "./src/assets/images/stateFlags/Bandeira_de_Minas_Gerais.svg",
+            "alternative": "Bandeira do estado das Minas Gerais"
+        },
+        {
+            "id": 14,
+            "name": "Pará",
+            "abbreviation": "PA",
+            "image": "./src/assets/images/stateFlags/Bandeira_do_Para.svg",
+            "alternative": "Bandeira do estado do Pará"
+        },
+        {
+            "id": 15,
+            "name": "Paraíba",
+            "abbreviation": "PB",
+            "image": "./src/assets/images/stateFlags/Bandeira_da_Paraiba.svg",
+            "alternative": "Bandeira do estado da Paraíba"
+        },
+        {
+            "id": 16,
+            "name": "Paraná",
+            "abbreviation": "PR",
+            "image": "./src/assets/images/stateFlags/Bandeira_do_Parana.svg",
+            "alternative": "Bandeira do estado do Paraná"
+        },
+        {
+            "id": 17,
+            "name": "Pernambuco",
+            "abbreviation": "PE",
+            "image": "./src/assets/images/stateFlags/Bandeira_de_Pernambuco.svg",
+            "alternative": "Bandeira do estado de Pernambuco"
+        },
+        {
+            "id": 18,
+            "name": "Piauí",
+            "abbreviation": "PI",
+            "image": "./src/assets/images/stateFlags/Bandeira_do_Piaui.svg",
+            "alternative": "Bandeira do estado do Piauí"
+        },
+        {
+            "id": 19,
+            "name": "Rio de Janeiro",
+            "abbreviation": "RJ",
+            "image": "./src/assets/images/stateFlags/Bandeira_do_estado_do_Rio_de_Janeiro.svg",
+            "alternative": "Bandeira do estado do Rio de Janeiro"
+        },
+        {
+            "id": 20,
+            "name": "Rio Grande do Norte",
+            "abbreviation": "RN",
+            "image": "./src/assets/images/stateFlags/Bandeira_do_Rio_Grande_do_Norte.svg",
+            "alternative": "Bandeira do estado do Rio Grande do Norte"
+        },
+        {
+            "id": 21,
+            "name": "Rio Grande do Sul",
+            "abbreviation": "RS",
+            "image": "./src/assets/images/stateFlags/Bandeira_do_Rio_Grande_do_Sul.svg",
+            "alternative": "Bandeira do estado do Rio grande do Sul"
+        },
+        {
+            "id": 22,
+            "name": "Rondônia",
+            "abbreviation": "RO",
+            "image": "./src/assets/images/stateFlags/Bandeira_de_Rondonia.svg",
+            "alternative": "Bandeira do estado de Rondônia"
+        },
+        {
+            "id": 23,
+            "name": "Roraima",
+            "abbreviation": "RR",
+            "image": "./src/assets/images/stateFlags/Bandeira_de_Roraima.svg",
+            "alternative": "Bandeira do estado de Roraima"
+        },
+        {
+            "id": 24,
+            "name": "Santa Catarina",
+            "abbreviation": "SC",
+            "image": "./src/assets/images/stateFlags/Bandeira_de_Santa_Catarina.svg",
+            "alternative": "Bandeira do estado de Santa Catarina"
+        },
+        {
+            "id": 25,
+            "name": "São Paulo",
+            "abbreviation": "SP",
+            "image": "./src/assets/images/stateFlags/Bandeira_do_estado_de_Sao_Paulo.svg",
+            "alternative": "Bandeira do estado de São Paulo"
+        },
+        {
+            "id": 26,
+            "name": "Sergipe",
+            "abbreviation": "SE",
+            "image": "./src/assets/images/stateFlags/Bandeira_de_Sergipe.svg",
+            "alternative": "Bandeira do estado de Sergipe"
+        },
+        {
+            "id": 27,
+            "name": "Tocantins",
+            "abbreviation": "TO",
+            "image": "./src/assets/images/stateFlags/Bandeira_do_Tocantins.svg",
+            "alternative": "Bandeira do estado do Tocantins"
+        }
+    ]
+}
